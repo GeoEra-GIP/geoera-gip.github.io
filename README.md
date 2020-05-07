@@ -1,2 +1,2 @@
-# BGS Technical Innovations and Discussions 
+# GIP GitHub Site
 
