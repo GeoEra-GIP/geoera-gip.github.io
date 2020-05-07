@@ -1,128 +1,118 @@
 ---
-title:  "Moving code into the open"
-author: Dr John A Stevenson
+title:  "Background"
+author:
 categories:
-  - open-source
+
 tags:
-  - Python
-  - Oracle
-  - database
-  - GitLab
-  - GitHub
-  - continuous-integration
 ---
 
-We recently released our internally-developed [etlhelper](https://github.com/BritishGeologicalSurvey/etlhelper) tool under an open source licence.
-This post is a reflection on the experience, explaining what we did and why and with advice for future projects.
-The take-home messages are:
+GeoERA Information Platform Project (GIP-P)
+===========================================
 
-+ If the software is intended to be released under an open-source licence, it is simpler to develop it in the open from the start.
-+ Developing software in the open is easiest when the surrounding ecosystem is also open source.
+It is the overall aim of GeoERA to integrate information and knowledge to support sustainable use of the subsurface. The geoscientific projects (GSPs) on subsurface energy, water and raw material resources will produce large amounts of geological data and information and the GeoERA Information Platform Project (GIP-P) will establish a common platform for organising, disseminating and sustaining the digital results of those projects. The platform will include a central database, a metadatabase, a user friendly web-portal and a digital archive for organising reports and unstructured data. The portal will include facilities for visualising complex information like 3D/4D geological models. In order to ensure that the needs of the GSPs are fully identified and understood by the experts who will implement the platform, a specific organisation will be set up to liaise between those projects and the GIP-P. Great effort will be put into adhering to European and international standards in order for the results to be as useful as possible for the whole of GeoERA and its external users thereby maximising the overall impact of the project. Techniques like Linked Open Data and multilingual thesauri will be implemented to ensure maximum interoperability of the data and services.
 
+![](https://i0.wp.com/geoera.eu/wp-content/uploads/2019/08/information-platform-logo.png?w=700)
 
-## About `etlhelper`
+The platform will be based on a coherent architecture which will take into account experiences gained in previous EU funded data harmonisation projects and be built as an extension to the European Geological Data Infrastructure [EGDI](http://www.europe-geology.eu). The project will explore how the sustainability of the platform is ensured after the end of GeoERA.
 
-[etlhelper](https://github.com/BritishGeologicalSurvey/etlhelper) is a Python library to simplify data transfer between databases.
-We use it where Python programs need to access data in BGS' Oracle (and other) databases.
-It is an open source version of software developed internally under the name of `bgs_etl`.
+![](https://i0.wp.com/geoera.eu/wp-content/uploads/2019/08/EGDI-logo.png?w=700)
 
-`bgs_etl` began life over a year ago as a script to automate installation of Oracle Instant Client software onto Linux servers and containers.
-Later we added functions to simplify connecting to databases and running queries.
-Pre-defined connection parameters for internal database servers were also added.
-We now use `bgs_etl` in data transfer pipelines and web-service APIs.
+# Key Repositories
 
+* https://geusgitlab.geus.dk/egdi
+* https://github.com/GeoEra-GIP/WP4-Semantics
+* https://github.com/schmar00/project-vocabularies
+* https://github.com/schmar00/semantic-search
+* https://github.com/GeoEra-GIP/documentation
+  * https://geoera-gip.github.io/documentation/
+* https://github.com/GeoEra-GIP/Project-Support-WP8
+* https://github.com/CzechGeologicalSurvey/Micka
+* https://github.com/CzechGeologicalSurvey/MICKA-Docs
+  * https://czechgeologicalsurvey.github.io/MICKA-Docs/
 
-## Why release the code?
+##### GIP-P support to the other GeoERA projects
 
-The UK Government's Digital Services have an excellent blog post describing [The Benefits of Coding in the Open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/).
-These include encouraging the use of best practices and receiving contributions and bug fixes from external users.
+To enable the other GeoERA projects to deliver their outputs, the GIP-project offers data provider support through a suite of tools including detailed documentation/cookbooks, email helpdesk, buddy systems/mentoring, workshops and eLearning resources. See [video](https://youtu.be/Bmf0efZ1rSE) about the Work Package.
 
-`bgs_etl` simplifies generic tasks around running SQL commands via Python so it is useful more widely than just within BGS.
-As a developer, it is satisfying to know that your work is helping as many people as possible.
-Open-sourcing the code also makes it easy to reuse in projects with external collaborators.
+For further details please visit [https://github.com/GeoEra-GIP/Project-Support-WP8](https://github.com/GeoEra-GIP/Project-Support-WP8)
 
+Email the helpdesk with any questions/issues: [support@geoera.eu](mailto:support@geoera.eu)
 
-## Steps toward open-sourcing the project
+**NOTE:** This automatically adds your enquiry to our public issue tracker ([https://github.com/GeoEra-GIP/Project-Support-WP8/issues](https://github.com/GeoEra-GIP/Project-Support-WP8/issues))
 
-We aimed to publish the source code on the [BGS GitHub repository](https://github.com/BritishGeologicalSurvey) and to upload the Python package to the [PyPI package repository](https://pypi.org/project/etlhelper/) so it can be installed via Python's `pip` command.
-There were a number of steps along the way.
+##### Deliverables
 
+[D2.1.1, Potential synergies and overlaps between the projects.](http://geoera.eu/wp-content/uploads/2019/07/D2.1.1-Potential-synergies-and-overlaps.pdf)  
+[D2.2.1, Requirements to the GIP-project by the three other themes.](http://geoera.eu/wp-content/uploads/2019/01/D2.2.1-Requirements-to-the-Information-Platform.pdf)  
+[D2.2.2, Refinements of requirements after feedback.](https://geoera.eu/wp-content/uploads/2020/01/D2.2.2-Refinements-of-requirements.pdf)  
+[D2.2.2 Appendix.](https://geoera.eu/wp-content/uploads/2020/01/D2.2.2-Appendix-A.pdf)  
+[D2.3.1, Extensions to EGDI.](http://geoera.eu/wp-content/uploads/2019/04/D2.3.1-Extensions-to-EGDI.pdf)  
+[D2.3.2, Mapping and describing the needed extensions to EGDI](https://geoera.eu/wp-content/uploads/2020/04/D.2.3.2-Mapping-and-describing-the-needed-extensions-to-EGDI.pdf).  
+[D3.1, Data models, Standard Guidelines and Toolkits.](http://geoera.eu/wp-content/uploads/2019/05/D3.1-Data-models_Standard_Guidelines_Toolkits-FINAL.pdf)  
+[D3.2.1, Gap Analysis and Path Extension.](http://geoera.eu/wp-content/uploads/2019/08/D3.2.1-Gap-analysis-and-extended-path.pdf)  
+[D3.2.2, Technical requirements and guidance to expose the data.](https://geoera.eu/wp-content/uploads/2020/01/D3.2.2-Technical-requirements-and-guidance-to-expose-the-data.pdf)  
+[D3.3, Standards validation procedures.](https://geoera.eu/wp-content/uploads/2020/01/D3.3-Standards-validation-procedures.pdf)  
+[D4.1, Keyword Thesaurus (RDF file).](http://geoera.eu/files/GeoERA-Keyword-Thesaurus_1.0.zip)  
+[D4.2, Keyword Thesaurus.](https://geoera.eu/wp-content/uploads/2019/11/D4.2-GeoERA-Keyword-Thesaurus.pdf)  
+[D4.3, Project Vocabularies.](https://geoera.eu/wp-content/uploads/2019/11/D4.3-GeoERA-Project-Vocabularies.pdf)  
+[D5.1, GIP-project blueprint: data and services architecture.](http://geoera.eu/wp-content/uploads/2019/10/D5.1.v1-GIP_blueprint-Data_and_services_architecture.pdf)[D5.2, GeoERA Central System specification](https://geoera.eu/wp-content/uploads/2019/12/D5.2.v1-GeoERA-Central-System-Specification.pdf)**[.](https://geoera.eu/wp-content/uploads/2019/12/D5.2.v1-GeoERA-Central-System-Specification.pdf)**  
+[D6.2, Web portal version 1.1.](http://geoera.eu/wp-content/uploads/2019/02/D6.2-Web-portal-version-1.1.pdf)  
+[D6.3, Demonstrator portals, Version 1.](https://geoera.eu/wp-content/uploads/2020/03/D6.3-Demonstrator-portals-version-1.pdf)  
+[D7.1, Working Version Metadatabase.](https://geoera.eu/wp-content/uploads/2019/12/D7.1-Working-version-Metadatabase.pdf)  
+[D8.3.1, Support network.](http://geoera.eu/wp-content/uploads/2019/07/D8.3.1-A-support-network.pdf)  
+[D9.1, Financial aspects of sustaining the IP.](https://geoera.eu/wp-content/uploads/2020/01/D9.1-Financial-aspects-of-sustaining-the-IP.pdf)  
+[D10.1, Development of Questionnaire with Scientific Support.](http://geoera.eu/wp-content/uploads/2019/01/Deliverable-10.1-Development-of-Questionnaire-with-Scientific-Support.pdf)  
+[D10.1, Development of Questionnaire with Scientific Support, Version 2.](http://geoera.eu/wp-content/uploads/2019/06/Deliverable-10.1-Development-of-Questionnaire-with-Scientific-Support-V2.pdf)  
+[D10.2, Limitations and constraints on free movement of data.](https://geoera.eu/wp-content/uploads/2020/01/D10.2-Limitations-and-constraints-on-free-movement-of-data.pdf)  
+[D10.5, Data Management Plan.](http://geoera.eu/wp-content/uploads/2019/04/D10.5-Data-Management-Plan.pdf)  
+[D11.1, Communication Manual](http://geoera.eu/wp-content/uploads/2019/01/D11.1-Communication-plan-FINAL.pdf).  
+[D11.2, Website content determination.](http://geoera.eu/wp-content/uploads/2019/02/D11.2-Website-content-determination.pdf)
 
-### Remove sensitive content
+##### Work packages
 
-The `bgs_etl` library contained sensitive content such as connection details for BGS databases required for automated tests.
-We didn't want to make these public.
-Git commands exist to [remove all traces of files](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository) from a repository history but we only wanted to remove isolated lines and would still need a new home for the sensitive data.
-We decided that the cleanest way to publish the database tools and setup scripts was to move them into a new package, `etlhelper`.
-BGS database details remained in our internal `bgs_etl` package, which now imports `etlhelper` as a dependency.
+|||
+|--- |--- |
+|WP1|Coordination. Lead: GEUS. Contact Jørgen Tulstrup|
+|WP2|User Requirements, Lead: RBINS. Contact David Garcia|
+|WP3|Standards and interoperability issues, Lead: ISPRA. Contact Carlo Cippoloni|
+|WP4|Semantic harmonisation issues, Lead: GBA. Contact Martin Schiegl|
+|WP5|Architecture, Lead: BRGM. Contact Jean-Baptiste Roquencourt|
+|WP6|Developments (user oriented), Lead: GEUS. Contact Martin Hansen|
+|WP7|Developments (central), Lead: GeoZS. Contact Andrej Vithelič|
+|WP8|Data provider support, Lead: UKRI. Contact Patrick Bell.|
+|WP9|Sustainability issues. Lead: GEUS. Contact Jørgen Tulstrup|
+|WP10|IPR and data policy issues, Lead: UKRI. Contact Chris Luton|
+|WP11|Communication and dissemination, Lead: IGME-ES. Contact Manuel Maria Regueiro González-Barros|
 
-The downside of this approach is that the commit that added 4,800 lines of code from `bgs_etl` took credit for work by multiple authors over the previous year.
-This is acknowledged in the [commit message](https://github.com/BritishGeologicalSurvey/etlhelper/commit/8337b9b94bc8c190c28c29077e333a7f320eafe0) but it is small consolation.
+##### Budget and Participants
 
+The total budget for the project is 3,860,803€ of which the participants contribute 2,714,145€ and the EC contributes 1,146,659€.
 
-### Choose a licence
+The Participants and their contributions in terms of Man Months are:
 
-There are many Open Source licences to choose from; [choosealicence.com](https://choosealicense.com/) has a good summary.
-These were new to BGS and so we discussed the various types with the legal department.
-In the end, we settled on [GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/).
-This makes the code available for commercial and non-commercial use and with no liability on the BGS.
-End users are free to modify the code or include it in closed-source packages with the conditions that our contribution must be acknowledged and that any modified versions must be distributed under the same licence.
-
-
-### Configure repository
-
-_GitLab_ and _GitHub_ are software repository hosting platforms.
-BGS runs a _GitLab_ instance on our own server to manage code for internal use.
-Even so, we chose to publish `etlhelper` to _GitHub_ as it has a higher profile and we already had a presence there.
-
-Creating a public repository on _GitHub_ for `etlhelper` was straightforward.
-However, we also need a version on our internal _GitLab_ server for running our automated tests (see below).
-_GitLab_ has a [repository mirroring capability](https://docs.gitlab.com/ee/workflow/repository_mirroring.html#overview) so we configured it to pull in changes from _GitHub_ automatically.
-The public-facing _GitHub_ repository now acts as as the definitive source of truth and so project-related tasks, e.g. bug tracking, take place in the open.
-
-
-### Update Continuous Integration (CI) pipelines
-
-`bgs_etl` had unit and integration tests to ensure that changes to the code didn't break it.
-These are run by the Continuous Integration (CI) pipelines.
-Unit tests check the logic of individual functions, while integration tests check the software as it would be used.
-The integration tests must confirm that `etlhelper` works with Oracle, PostgreSQL, SQLite and MS SQL Server databases.
-PostgreSQL and SQLite are open source and test databases can be created at will.
-Oracle and MS SQL Server are proprietary and tests must connect to internal BGS servers; they cannot be run from GitHub.
-
-Running at least some tests in GitHub can act as an initial filter and give contributors rapid feedback in the form of a green tick or red cross against their merge request.
-Our current solution uses [Travis CI](https://travis-ci.com) to run just the unit tests whenever new code is uploaded.
-Once code has been merged it is mirrored down to GitLab where the full test suite is run.
-Bad code can still be merged, but we will not make a 'release' and upload it to PyPI unless all the tests have passed in GitLab.
-External contributers can be notified via a comment on their merge request.
-
-Soon we will add PostgreSQL and SQLite integration tests to Travis.
-This is possible because the test suite was refactored to cleanly separate the different database types.
-Test database parameters are defined by environment variables (and therefore not stored in the code) and tests for a given database type are automatically skipped if the database is unreachable.
-As a result, the main application logic will be covered by tests that run in GitHub and only tests specific to different proprietary database types will depend on GitLab.
-
-
-## Thoughts on how things went
-
-Coding in the open is a new way of working for BGS and this project represents
-a test-case.
-Hopefully it will be the first example of many.
-Getting initial sign-off for the release took longer than expected as there was
-no clear 'category' for this kind of output.
-Was it a product?  A publication?  A dataset?  Should it have a DOI?
-
-It is hard to tell how `etlhelper` has been received in the month since it was released.
-We have received neither pull requests with amazing new features (😞) nor bug reports (😊) so far.
-By making the code open we can track [Stars](https://github.com/BritishGeologicalSurvey/etlhelper/stargazers), [Forks](https://github.com/BritishGeologicalSurvey/etlhelper/network/members) and [downstream dependents](https://github.com/BritishGeologicalSurvey/etlhelper/network/dependents) on GitHub, and [PyPI stats](https://pypistats.org/packages/etlhelper) records monthly downloads.
-These are quantitative measures that can be used to track "impact".
-
-Splitting `etlhelper` out of `bgs_etl` was a major refactor of the code.
-This would have been torture without a suite of tests to confirm that it all still worked.
-It was a shame to lose the commit history when we transferred the repository.
-It wouldn't have happened if we had been developing on GitHub from the beginning.
-This is a lesson for future projects that are likely to be open-sourced.
-
-Maintaining two CI pipelines adds effort to the project but is unavoidable in this case because we need to test against proprietary databases.
-On the other hand, it is good to know that we can trigger internal CI jobs from
-code hosted externally.
-More generally, it demonstrates that developing software in the open is easier if the surrounding ecosystem is also open source.
+|Partner (Short name)|Partner Name|Country/Region|Man Months|
+|--- |--- |--- |--- |
+|GEUS (Coordinator)|Geological Survey of Denmark and Greenland|Denmark|70.0|
+|BGR|Bundesanstalt Für Geowissenschaften und Rohstoffe|Germany|20.7|
+|TNO|Nederlandse Organistie voor Toegepast Natuurwetenschappelijk Onderzoek|The Netherlands|23.7|
+|SGU|Sveriges geologiska undersökning|Sweden|17.3|
+|GeoZS|Geoloski Zavod Slovenije|Slovenia|79,0|
+|CGS|Ceska Geologicka Sluzba|Czech Republic|31.0|
+|BRGM|Bureau de Recherches Geologiques et Minieres|France|40.0|
+|UKRI|United Kingdom Research and Innovation|United Kingdom|23.0|
+|ISPRA|Istituto Superiore per la Protezione e la Ricerca Ambientale|Italy|30.0|
+|GTK|Geologian Tutkimuskeskus|Finland|6.0|
+|NGU|Geological Survey of Norway|Norway|11.2|
+|RBINS|Institut Royal des Sciences Naturelles de Belgique|Belgium|20.0|
+|GSI|Department of Communications, Climate Action & Environment|Ireland|19.0|
+|IGME-ES|Instituto Geológico y Minero de Espana|Spain|42.0|
+|Geoinform|State Research and Development Enterprise State Information Geological of Ukraine|Ukraine|6.0|
+|GIR|Institutul Geologic al Romaniei|Romania|7.3|
+|GBA|Geologische Bundesanstalt|Austria|12.0|
+|SGSS|Servizio Geologico, Sismico e dei Suoli della Regione Emilia-Romagna|Emilia-Romagna, Italy|5.4|
+|MFBSZ|MAGYAR BÁNYÁSZATI ÉS FÖLDTANI SZOLGÁLAT|Hungary|12.0|
+|LfU|Bayerisches Landesamt fur Umwelt|Bavaria, Germany|12.6|
+|LNEG|Laboratorio Nacional de Energia e Geologia I.P.|Portugal|9.7|
+|PIG-PIB|Panstwowy Instytut Geologiczny – Panstwowy Instytut Badawczy|Poland|3.3|
+|HGI-CGS|Hrvatski Geološki Institut|Croatia|13.7|
+|ISOR|Íslenskar orkurannsóknir|Iceland|6.3|
