@@ -1,9 +1,8 @@
 ---
-title:  "Background"
-author:
-categories:
-
-tags:
+title: "About"
+excerpt: "About"
+sitemap: false
+permalink: /about.html
 ---
 
 GeoERA Information Platform Project (GIP-P)
