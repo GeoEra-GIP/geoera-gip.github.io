@@ -18,17 +18,19 @@ The platform will be based on a coherent architecture which will take into accou
 
 # Key Repositories
 
-* https://geusgitlab.geus.dk/egdi
-* https://github.com/GeoEra-GIP/WP4-Semantics
-* https://github.com/schmar00/project-vocabularies
-* https://github.com/schmar00/semantic-search
-* https://github.com/GeoEra-GIP/documentation
-  * https://geoera-gip.github.io/documentation/
-* https://github.com/GeoEra-GIP/Project-Support-WP8
-* https://github.com/CzechGeologicalSurvey/Micka
-* https://github.com/CzechGeologicalSurvey/MICKA-Docs
-  * https://czechgeologicalsurvey.github.io/MICKA-Docs/
-
+* <https://geusgitlab.geus.dk/egdi>
+* <https://github.com/GeoEra-GIP/WP4-Semantics>
+* <https://github.com/schmar00/project-vocabularies>
+* <https://github.com/schmar00/semantic-search>
+* <https://github.com/GeoEra-GIP/documentation>
+  * <https://geoera-gip.github.io/documentation/>
+* <https://github.com/GeoEra-GIP/Project-Support-WP8>
+  * <https://geoera-gip.github.io/Project-Support-WP8>
+  * <https://geoera-gip.github.io/Project-Support-WP8/presentations/2020-05-12/#/title>
+* <https://github.com/CzechGeologicalSurvey/Micka>
+* <https://github.com/CzechGeologicalSurvey/MICKA-Docs>
+  * <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
+  
 ##### GIP-P support to the other GeoERA projects
 
 To enable the other GeoERA projects to deliver their outputs, the GIP-project offers data provider support through a suite of tools including detailed documentation/cookbooks, email helpdesk, buddy systems/mentoring, workshops and eLearning resources. See [video](https://youtu.be/Bmf0efZ1rSE) about the Work Package.
