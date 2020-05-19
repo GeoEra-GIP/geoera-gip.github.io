@@ -4,13 +4,13 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/markus-spiske-unsplash.jpg.jpg
+  overlay_image: /assets/images/markus-spiske-unsplash.jpg
   caption: "Photo credit: [Photo by Markus Spiske on Unsplash](https://unsplash.com)"
 excerpt: >
   Integrating information and knowledge to support sustainable use of the subsurface.<br />
    
 ---
-
+Hi
 
 {{ content }}
 
