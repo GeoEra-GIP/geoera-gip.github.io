@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: Geo_ERA
 github_username: GeoEra-GIP
 og_image: "https://i0.wp.com/geoera.eu/wp-content/uploads/2019/08/information-platform-logo.png"
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 breadcrumbs: false
 words_per_minute: 180
