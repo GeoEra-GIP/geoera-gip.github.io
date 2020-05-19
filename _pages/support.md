@@ -2,7 +2,7 @@
 title: "Support"
 excerpt: "Support"
 sitemap: false
-permalink: /support.html
+permalink: /support/
 ---
 
 # GeoERA Data provider support
