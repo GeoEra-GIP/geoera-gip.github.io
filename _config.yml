@@ -5,18 +5,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: Geo_ERA
 github_username: GeoEra-GIP
 og_image: "https://i0.wp.com/geoera.eu/wp-content/uploads/2019/08/information-platform-logo.png"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: air
 search: true
 breadcrumbs: false
 words_per_minute: 180
 markdown: kramdown
 highlighter: rouge
-remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: 'Europe/London'
-remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 include:
   - _pages
 
