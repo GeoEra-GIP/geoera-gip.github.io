@@ -2,7 +2,7 @@
 title: "About"
 excerpt: "About"
 sitemap: false
-permalink: /about.html
+permalink: /about/
 ---
 
 GeoERA Information Platform Project (GIP-P)
