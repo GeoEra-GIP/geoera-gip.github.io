@@ -7,6 +7,8 @@ github_username: GeoEra-GIP
 og_image: "https://i0.wp.com/geoera.eu/wp-content/uploads/2019/08/information-platform-logo.png"
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: air
+remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 search: true
 breadcrumbs: false
 words_per_minute: 180
