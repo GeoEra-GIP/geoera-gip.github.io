@@ -9,6 +9,8 @@ permalink: /support/
 
 Overview Presentation 19-05-2020: [WP8 Presentation](https://geoera-gip.github.io/Project-Support-WP8/presentations/2020-05-12/#/title)
 
+Summary presentation on project vocablaries - [GeoEra Project Vocabulary Summary](https://geoera-gip.github.io/Project-Support-WP8/presentations/GeoEraProjectVocab_briefInfo_09062020.html)
+
 Provided by: UKRI, GEUS, TNO, GeoZS, CGS, BRGM, NERC, ISPRA, NGU, RBINS & HGI-CGS, 
 
 ## Objectives
