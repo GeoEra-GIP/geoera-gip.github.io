@@ -7,19 +7,25 @@ permalink: /support/
 
 # GeoERA Data provider support
 
+Provided by: UKRI, GEUS, TNO, GeoZS, CGS, BRGM, NERC, ISPRA, NGU, RBINS & HGI-CGS
+
+## Presentations
+
 Overview Presentation 19-05-2020: [WP8 Presentation](https://geoera-gip.github.io/Project-Support-WP8/presentations/2020-05-12/#/title)
 
 Summary presentation on project vocablaries - [GeoEra Project Vocabulary Summary](https://geoera-gip.github.io/Project-Support-WP8/presentations/GeoEraProjectVocab_briefInfo_09062020.html)
 
-Provided by: UKRI, GEUS, TNO, GeoZS, CGS, BRGM, NERC, ISPRA, NGU, RBINS & HGI-CGS, 
+## Documentation
 
-## Objectives
+* Using EGDI - <http://egdi-public.gitlabpages.geus.dk/egdi-documentation/#/>
+* Using MIcKA - <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
+* GeoERA GIP Docs - <https://geoera-gip.github.io/documentation/>
+
+# Objectives
 
 We aim to empower the GeoERA Science Projects to disseminate and integrate data, information, interpretations and models resulting from their activities in a standards-based and interoperable manner through the GIP.
 
-To do this we will be providing a suite of support tools, channels and activities to facilitate data sharing through the GIP including the generation of 
-
-# Key Repositories/Links
+## Key Repositories/Links
 
 * <https://geusgitlab.geus.dk/egdi>
 * <https://github.com/GeoEra-GIP/WP4-Semantics>
@@ -36,14 +42,14 @@ To do this we will be providing a suite of support tools, channels and activitie
 * <https://github.com/CzechGeologicalSurvey/MICKA-Docs>
   * <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
 
-## Support
+# Support
 
 Direct support is initally to be offered via email helpdesk or raising issues via the [WP8 Issue Tracker](https://github.com/GeoEra-GIP/WP8-Support/issues). If issues are raised multiple times we will pin these on the issues page to form an FAQ.
 
-Emails to [support](support@geoera.eu) will create issue in the issue tracker via bot with email geoerasupport@fire.fundersclub.com 
+Emails to [support](support@geoera.eu) will create issue in the issue tracker via bot with email <geoerasupport@fire.fundersclub.com> 
 
-Summary of team skills  - https://github.com/GeoEra-GIP/WP8-Support/blob/master/Team_Skills.md
+Summary of team skills  - <https://github.com/GeoEra-GIP/WP8-Support/blob/master/Team_Skills.md>
 
-### Using the issue tracker
+## Using the issue tracker
 
 See [here](https://help.github.com/articles/creating-an-issue/) for a guide on raising an issue. If possible please use the "Labels" function on the right hand side when creating an issue to flag as question/help wanted/enhancement etc.     
