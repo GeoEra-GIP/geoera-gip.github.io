@@ -25,6 +25,8 @@ To do this we will be providing a suite of support tools, channels and activitie
 * <https://github.com/GeoEra-GIP/WP4-Semantics>
 * <https://github.com/schmar00/project-vocabularies>
 * <https://github.com/schmar00/semantic-search>
+* <https://geusgitlab.geus.dk/egdi-public/egdi-documentation>
+ * <http://egdi-public.gitlabpages.geus.dk/egdi-documentation/#/>
 * <https://github.com/GeoEra-GIP/documentation>
   * <https://geoera-gip.github.io/documentation/>
 * <https://github.com/GeoEra-GIP/Project-Support-WP8>
