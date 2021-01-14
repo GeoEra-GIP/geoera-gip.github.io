@@ -19,7 +19,6 @@ Summary presentation on project vocablaries - [GeoEra Project Vocabulary Summary
 
 * Using EGDI - <http://egdi-public.gitlabpages.geus.dk/egdi-documentation/#/>
 * Using MIcKA - <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
-* GeoERA GIP Docs - <https://geoera-gip.github.io/documentation/>
 
 # Objectives
 
@@ -33,8 +32,6 @@ We aim to empower the GeoERA Science Projects to disseminate and integrate data,
 * <https://github.com/schmar00/semantic-search>
 * <https://geusgitlab.geus.dk/egdi-public/egdi-documentation>
   * <http://egdi-public.gitlabpages.geus.dk/egdi-documentation/#/>
-* <https://github.com/GeoEra-GIP/documentation>
-  * <https://geoera-gip.github.io/documentation/>
 * <https://github.com/GeoEra-GIP/Project-Support-WP8>
   * <https://geoera-gip.github.io/Project-Support-WP8>
   * <https://geoera-gip.github.io/Project-Support-WP8/presentations/2020-05-12/#/title>
