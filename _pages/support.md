@@ -15,6 +15,8 @@ Overview Presentation 19-05-2020: [WP8 Presentation](https://geoera-gip.github.i
 
 Summary presentation on project vocablaries - [GeoEra Project Vocabulary Summary](https://geoera-gip.github.io/Project-Support-WP8/presentations/GeoEraProjectVocab_briefInfo_09062020.html)
 
+[Webinar on using the GitHub Issue tracker (25/02/2021)](https://youtu.be/Uc-66HAJ1Y8)
+
 ## Documentation
 
 * Using EGDI - <http://egdi-public.gitlabpages.geus.dk/egdi-documentation/#/>
@@ -50,3 +52,5 @@ Summary of team skills  - <https://github.com/GeoEra-GIP/WP8-Support/blob/master
 ## Using the issue tracker
 
 See [here](https://help.github.com/articles/creating-an-issue/) for a guide on raising an issue. If possible please use the "Labels" function on the right hand side when creating an issue to flag as question/help wanted/enhancement etc.     
+
+[Webinar on using the GitHub Issue tracker (25/02/2021)](https://youtu.be/Uc-66HAJ1Y8)
