@@ -17,7 +17,7 @@ Summary presentation on project vocablaries - [GeoEra Project Vocabulary Summary
 
 Webinar on using the GitHub Issue tracker (25/02/2021)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Uc-66HAJ1Y8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/Uc-66HAJ1Y8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## Documentation
 
