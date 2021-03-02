@@ -15,7 +15,9 @@ Overview Presentation 19-05-2020: [WP8 Presentation](https://geoera-gip.github.i
 
 Summary presentation on project vocablaries - [GeoEra Project Vocabulary Summary](https://geoera-gip.github.io/Project-Support-WP8/presentations/GeoEraProjectVocab_briefInfo_09062020.html)
 
-[Webinar on using the GitHub Issue tracker (25/02/2021)](https://youtu.be/Uc-66HAJ1Y8)
+Webinar on using the GitHub Issue tracker (25/02/2021)
+
+<iframe width="640" height="360" src="https://youtu.be/Uc-66HAJ1Y8controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## Documentation
 
