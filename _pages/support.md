@@ -19,10 +19,17 @@ Webinar on using the GitHub Issue tracker (25/02/2021)
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/Uc-66HAJ1Y8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## Documentation
+## Using EGDI 
 
-* Using EGDI - <http://egdi-public.gitlabpages.geus.dk/egdi-documentation/#/>
-* Using MIcKA - <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
+<http://egdi-public.gitlabpages.geus.dk/egdi-documentation/#/>
+
+## Using MIcKA 
+
+<https://czechgeologicalsurvey.github.io/MICKA-Docs/>
+
+### Video Tutorials
+
+<iframe width="320" height="180" src="https://youtube.com/playlist?list=PLrUsUX02MJ2bT7HEH6puswgE5xn_vgBh-" frameborder="0" allowfullscreen></iframe>
 
 # Objectives
 
