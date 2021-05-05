@@ -29,7 +29,7 @@ Documentation - <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
 
 ### Video Tutorials
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/videoseries?list=PLrUsUX02MJ2bT7HEH6puswgE5xn_vgBh-?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/videoseries?list=PLrUsUX02MJ2bT7HEH6puswgE5xn_vgBh-" frameborder="0" allowfullscreen></iframe>
 
 # Objectives
 
