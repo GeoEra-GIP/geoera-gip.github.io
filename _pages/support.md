@@ -31,6 +31,8 @@ Documentation - <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/videoseries?list=PLrUsUX02MJ2bT7HEH6puswgE5xn_vgBh-" frameborder="0" allowfullscreen></iframe>
 
+
+
 # Objectives
 
 We aim to empower the GeoERA Science Projects to disseminate and integrate data, information, interpretations and models resulting from their activities in a standards-based and interoperable manner through the GIP.
