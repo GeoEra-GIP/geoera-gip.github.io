@@ -31,25 +31,35 @@ Documentation - <https://czechgeologicalsurvey.github.io/MICKA-Docs/>
 
 There are 5 videos in the playlist <https://www.youtube.com/watch?v=8_Pae9o8TmE&list=PLrUsUX02MJ2bT7HEH6puswgE5xn_vgBh->, otherwise the individual videos can be found below.
 
-1. “EGDI Metadata Cookbook Lite" (presenter Pavla Kramolišová), 14 min. Step by step through the Cookbook for creating metadata records using the EGDI Lite editing form in the EGDI Metadata Catalogue. 
+#### EGDI Metadata Cookbook Lite (presenter Pavla Kramolišová), 14 min
+
+Step by step through the Cookbook for creating metadata records using the EGDI Lite editing form in the EGDI Metadata Catalogue. 
 
 <iframe width="280" height="157" src="https://www.youtube.com/embed/8_Pae9o8TmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-2. “Introduction to the EGDI Metadata Catalogue” (presenter Pavla Kramolišová, Olga Moravcová), 10 min. General navigation in the EGDI Metadata Catalogue, description of main menu, tools, login and example of a creation basic metadata with 5+1 mandatory minimum elements for uploading data to the EGDI platform. 
+#### Introduction to the EGDI Metadata Catalogue (presenter Pavla Kramolišová, Olga Moravcová), 10 min
+
+General navigation in the EGDI Metadata Catalogue, description of main menu, tools, login and example of a creation basic metadata with 5+1 mandatory minimum elements for uploading data to the EGDI platform. 
 
 <iframe width="280" height="157" src="https://www.youtube.com/embed/bHS69Sa4N4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-3. “Training video 1. Metadata of structured data – basic” (presenter Trevor Alcorn), 12 min. How to use the EGDI Metadata Catalogue and how to create metadata records compliant with INSPIRE via the EGDI-Lite editing form, following INSPIRE validation panel step by step. 
+#### Training video 1. Metadata of structured data – basic (presenter Trevor Alcorn), 12 min 
+
+How to use the EGDI Metadata Catalogue and how to create metadata records compliant with INSPIRE via the EGDI-Lite editing form, following INSPIRE validation panel step by step. 
 
 <iframe width="280" height="157" src="https://www.youtube.com/embed/Q4_YG0Jpag0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-4. “Training video 2. Metadata of structured data – detailed” (presenter Trevor Alcorn), 20 min. How to use the EGDI Metadata Catalogue. The best practise of creation and editing metadata records via the EGDI-Lite editing form follow the INSPIRE directive validation. Example of uploading spatial data to the EGDI platform. (following Training video 1. Metadata of structured data – basic).
+#### Training video 2. Metadata of structured data – detailed (presenter Trevor Alcorn), 20 min
+
+How to use the EGDI Metadata Catalogue. The best practise of creation and editing metadata records via the EGDI-Lite editing form follow the INSPIRE directive validation. Example of uploading spatial data to the EGDI platform. (following Training video 1. Metadata of structured data – basic).
 
 <iframe width="280" height="157" src="https://www.youtube.com/embed/CLUE-3VCN2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-5. “Training video 3. Metadata of unstructured files” (presenter James Trench), 6 min. How to create a metadata for an unstructured file (PDF) during the file uploading process to the EGDI Document Repository, part of the EGDI platform.
+#### Training video 3. Metadata of unstructured files (presenter James Trench), 6 min
 
-<iframe width="280" height="157" src="https://www.youtube.com/embed/8_Pae9o8TmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+How to create a metadata for an unstructured file (PDF) during the file uploading process to the EGDI Document Repository, part of the EGDI platform.
+
+<iframe width="280" height="157" src="https://www.youtube.com/embed/bqBtjGW-BtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
