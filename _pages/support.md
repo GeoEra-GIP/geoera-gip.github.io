@@ -84,9 +84,7 @@ We aim to empower the GeoERA Science Projects to disseminate and integrate data,
 
 # Support
 
-Direct support is initally to be offered via email helpdesk or raising issues via the [WP8 Issue Tracker](https://github.com/GeoEra-GIP/WP8-Support/issues). If issues are raised multiple times we will pin these on the issues page to form an FAQ.
-
-Emails to [support](support@geoera.eu) will create issue in the issue tracker via bot with email <geoerasupport@fire.fundersclub.com> 
+GeoERA user support issues were logged via the [WP8 Issue Tracker](https://github.com/GeoEra-GIP/WP8-Support/issues). 
 
 Summary of team skills  - <https://github.com/GeoEra-GIP/WP8-Support/blob/master/Team_Skills.md>
 
